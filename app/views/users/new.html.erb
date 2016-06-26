@@ -1,0 +1,14 @@
+
+Enter user information
+<hr>
+<%= form_for @user do |f| %>
+	<%= f.label :age %><br>
+	<%= f.text_field :age %><br />
+	<%= f.label :workclass %><br>
+	<%= f.text_field :workclass %><br />
+	<%= f.label :fnlwgt %><br>
+	<%= f.text_field :fnlwgt %><br />
+	<%= f.label :education %><br>
+	<%= f.text_field :education %><br />
+	<%= f.submit %>
+<% end -%>
